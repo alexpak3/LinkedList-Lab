@@ -39,4 +39,25 @@ public class ListNode {
         }
         return false;
     }
+
+    public ListNode getNext() {
+        return next;
+    }
+
+    public void setPrevious( ListNode previous) {
+        this.previous =  previous;
+    }
+
+
+    public Object getElement(){
+        return element;
+    }
+
+    public void setNext(ListNode next) {
+        this.next = next;
+    }
+
+    public ListNode getPrevious() {
+        return previous;
+    }
 }
